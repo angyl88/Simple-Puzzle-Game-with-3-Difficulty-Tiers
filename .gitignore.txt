@@ -1,4 +1,0 @@
-/Library/
-/Packages/
-/PackageCache/
-/Temp/
