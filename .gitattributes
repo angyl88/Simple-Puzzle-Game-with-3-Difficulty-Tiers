@@ -1,3 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 *.unity filter=lfs diff=lfs merge=lfs -text
+
+# Unity scene and asset files
+*.unity binary
+*.prefab binary
+*.asset binary
+
+# Ignore auto-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
